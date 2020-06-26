@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 5px 4px 5.5px #231717;
+}
+
+.test_bdflag_green {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px 1px #595A57;
+}
+
+.test_bdflag_red {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.test_boxshadow {
+    background-color: #FFAA00;
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 4px solid #0202FD;
+    border-radius: 20px;
+}
+
+.outside {
+    box-shadow: 6px 6px 3px 4px #999999;
+}
+
+.inside {
+    box-shadow: 6px 6px 3px 6px #996600 inset;
+}
+
+.rect {
+    background-color: #81007F;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border: 8px solid #F7A708;
+}
+
+.normal {
+    border-radius: 20px;
+}
+
+.crv {
+    border-radius: 135px;
+}
+
+.cir {
+    border-radius: 50%;
+}
+
+.sha {
+    border-radius: 60px 0px 60px 0px
+}
+
+.tri {
+    border-radius: 310px 0px 0px 0px;
+}
+
+.shad1 {
+    border-radius: 100px;
+}
+
+.leaf {
+    border-radius: 325px 0px;
+}
+
+.pira {
+    border-radius: 170px 170px 0px 0px;
+}
